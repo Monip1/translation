@@ -37,22 +37,7 @@ Open Refine Translation Task
 
 Clone the [Open Refine Repository](https://github.com/openrefine/openrefine).
 
-Name the repository `openRefine-[your_githubusername]`, using your own GitHub username. For example, if your username is `muthuvel` name it `openRefine-muthuvel`.
-
-
 ## Step 2: Translate Column in OpenRefine
-
-### Motivation
-
-This assignment is inspired by Yelp-style restaurant reviews. Imagine analyzing a dataset of reviews written by diners in different languages. You want to compare their experiences and understand feedback about the restaurants, but the language differences make it difficult to work with the reviews together. Translating them into a common language can make the dataset easier to explore and analyze while preserving the original text for reference.
-
-In this assignment, you will extend OpenRefine so users can translate an existing text column into a new column. You will practice working across an unfamiliar codebase, integrating an external service, handling failures, and testing a complete user-facing feature.
-
-You will use Codex (or another agentic tool of your choice, such as Claude Code) as part of your development process. You are responsible for understanding, evaluating, and verifying the changes you submit. In practice, this means three things:
-
-- **Understanding:** You can explain what each change does, why it is needed, and how it fits into the rest of OpenRefine, without asking the agent.
-- **Evaluating:** You judge the agent’s suggestions instead of accepting them by default. Ask whether the approach follows the codebase’s conventions, whether a simpler option exists, and whether it handles failures and edge cases.
-- **Verifying:** You check that the work is correct by running it. Run the tests, try the feature in OpenRefine yourself, and test the cases you expect to break. Do not trust the agent’s claim that something works.
 
 ### Task
 
@@ -62,7 +47,7 @@ For example, a project containing Yelp-style reviews may include reviewer names 
 
 **You choose which languages to support and how many.** Every pair must support at least these three languages, each as both a source and a target: **English, Spanish, and Mandarin Chinese**. Beyond that, the sky is the limit. Add as many languages as you like, for example Telugu, Tamil, Hindi, or French.
 
-For reference, our own solution supports five: Spanish, Mandarin Chinese, English, Telugu, and Tamil. Treat that as one example, not a target. Document your supported languages in `design.md` and explain how someone would add another one.
+For reference, our own solution supports five: Spanish, Mandarin Chinese, English, Telugu, and Tamil. Treat that as one example, not a target. 
 
 The images below show the result we expect: the original column stays as it is, and a new column with the translated text appears next to it. They do **not** show a required design. You do not need to match their layout, buttons, or wording.
 
@@ -91,7 +76,7 @@ Look at how existing OpenRefine features handle these questions, and follow the 
 
 - **OpenRefine integration:** Integrate the feature with the frontend and backend using the codebase’s existing conventions.
 
-- **Dataset:** Find a Yelp reviews dataset online, or generate your own Yelp-style reviews, for testing purposes. You may choose any dataset as long as it contains a column for text reviews. Commit a small sample of about 20 rows to the `Assignment3/` folder so anyone running your feature (for example, tutors while grading your final PR) can try it. The sample should include reviews in every language you support, so a grader can test each one.
+- **Dataset:** Find a Yelp reviews dataset online, or generate your own Yelp-style reviews, for testing purposes. You may choose any dataset as long as it contains a column for text reviews. Commit a small sample of about 20 rows so anyone running your feature can try it. The sample should include reviews in every language you support, so a grader can test each one.
 
 - **Edge cases and design decisions:** Identify edge cases and document your chosen behavior (e.g., failure handling, translated text in the same language, etc). Explain decisions that affect the user experience in `design.md`.
 
