@@ -65,5 +65,6 @@ These are examples. We may ask these questions or others like them.
 
 It is fine to say “I do not know”. Say what you do know and how you would find the answer. We may rephrase the question or give a hint. 
 
+---
 
 Copyright © 2026 Gerald Soosairaj. Built with [Just the Docs](https://github.com/just-the-docs/just-the-docs).
