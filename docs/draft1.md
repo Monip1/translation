@@ -1,7 +1,7 @@
 ---
 title: Draft 1
 layout: draft1
-permalink: /
+permalink: /draft1
 nav_order: 1
 ---
 
