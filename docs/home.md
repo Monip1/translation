@@ -11,8 +11,7 @@ nav_order: 0
 Open Refine Translation Task
 {: .fs-6 .fw-300 }
 
-# Setup
-
+# Overview
 
 | Hour | Task |
 |---|------------|
@@ -20,10 +19,10 @@ Open Refine Translation Task
 | 2nd | Familiarize yourself further with the codebase and how your new feature ties into the it. Prepare for walkthrough and Q&A |
 | 3rd | Code Walkthrough Presentation (Q&A) |
 
-## What you will turn in
+## Using Claude for the Task
 
 
-> **Agentic Development:** Use the provided Claude Code to help explore the codebase, plan changes, implement the feature, and develop tests. You must work with the agent to discover edge cases and make design decisions, rather than letting the agent make all the decisions. > Both partners should be able to explain the submitted code.
+> **Agentic Development:** Use the provided Claude Code to help explore the codebase, plan changes, implement the feature, and develop tests. You must work with the agent to discover edge cases and make design decisions, rather than letting the agent make all the decisions.
 >
 > **You own everything your agent produces.** Anything the agent writes for you is your work. Taking ownership means you:
 >
@@ -32,7 +31,7 @@ Open Refine Translation Task
 > - **Tests:** Check that the tests the agent writes test the right behavior, cover the edge cases, and can fail. A passing test is not enough.
 > - **Mistakes:** If the agent gets something wrong, the mistake is yours.
 
-## Part 1: The OpenRefine Development Environment
+## Step 1: The OpenRefine Development Environment
 
 #### Creating Your OpenRefine Repository
 
@@ -41,7 +40,7 @@ Clone the [Open Refine Repository](https://github.com/openrefine/openrefine).
 Name the repository `openRefine-[your_githubusername]`, using your own GitHub username. For example, if your username is `muthuvel` name it `openRefine-muthuvel`.
 
 
-## Part 2: Translate Column in OpenRefine
+## Step 2: Translate Column in OpenRefine
 
 ### Motivation
 
@@ -98,27 +97,7 @@ Look at how existing OpenRefine features handle these questions, and follow the 
 
 - **Testing:** Run the relevant existing tests, and add new tests that cover your feature’s normal behavior, the edge cases you chose to support, and failure handling. If your changes break an existing test, work out why. Change the test only if the expected behavior has intentionally changed. Do not delete or disable failing tests. All relevant existing tests and your new tests should pass in your final submission.
 
-## Submission
-
-Review [this table](#due-dates) for assignment deadlines.
-
-For the initial PR submission, create a folder called `Assignment3` at the root of your repository. In this folder, add your process journal (`journal.md`), your design document (`design.md`), your exported agent chat history (see [Exporting your chat history](#exporting-your-chat-history)), and your sample dataset of about 20 rows. The instructions are on the [A3 Process Journal](https://cse190largecodebasesfall2026.github.io/assignments/a3/process-journal) and [Design Document](https://cse190largecodebasesfall2026.github.io/assignments/design-doc) pages.
-
-Then open a pull request, **but do not merge it.** Use the [A3 pull request template](https://cse190largecodebasesfall2026.github.io/assignments/a3/pr-template).
-
-This is one pull request for the whole assignment. After the code review, you push new commits to the same `assignment3` branch, and the pull request updates itself. The “final PR” deadline is the deadline for those commits.
-
-**Open the pull request in your pair’s repository**, with `main` as the base branch and `assignment3` as the compare branch. Do not open a pull request against the course template repository or against `OpenRefine/OpenRefine`.
-
-Document how to run OpenRefine with your changes, so someone else (for example, tutors while grading your final PR) can follow the steps without asking you. In your pull request description, include any server setup, your translation setup (a hosted API or a local server), and how to try the feature with your sample dataset. If your feature needs an API key, explain how someone can get their own key and where to put it. **Never share your own keys or other secrets.**
-
-Your reviewers do not have to set up or run your feature. They review your code, tests, documents, and the screenshots and videos in your pull request.
-
-After the initial PR submission deadline, each student will be assigned to review another pair’s submission, so your pair will review two other pairs’ submissions in total. Instructions can be found on the [A3 Code Review](https://cse190largecodebasesfall2026.github.io/assignments/a3/code-review) page. Your tutor will post the GitHub usernames of the code review assignments and you will be added to the appropriate repositories as Readers so you can provide your review.
-
-Using that feedback, fix your initial PR as necessary, adding new commits to the `assignment3` branch. You will also prepare a ~10 minute presentation about your submission for team meetings, followed by ~10 minutes of Q&A with your tutor (20 minutes total). The tutor will ask you questions about your design, code, tests, and documents. The presentation will be graded on how you communicate your implementation and design decisions, not the technical excellence of the implementation itself.
-
-Use the [A3 presentation page](https://cse190largecodebasesfall2026.github.io/assignments/a3/presentation) for the plan, tips, and details on how the Q&A works, with example questions.
+Use the [presentation page](https://monip1.github.io/translation/docs/QA.html) for the plan, tips, and details on how the Q&A works, with example questions.
 
 
 ### Exporting your chat history
