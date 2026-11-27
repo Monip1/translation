@@ -108,9 +108,6 @@ Save your full conversation with the agent in the `transcripts/` folder. If you 
 
 Export before you close each session, and move or save the file into `transcripts/`.
 
----
-
-Copyright © 2026 Gerald Soosairaj. Built with [Just the Docs](https://github.com/just-the-docs/just-the-docs).
 <style>
   .meme {
     max-width: 300px;
