@@ -1,8 +1,8 @@
 ---
-title: Home
-layout: home
+title: Draft 1
+layout: draft1
 permalink: /
-nav_order: 0
+nav_order: 1
 ---
 
 # CSE 190 Study
