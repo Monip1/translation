@@ -97,7 +97,7 @@ Look at how existing OpenRefine features handle these questions, and follow the 
 
 - **Testing:** Run the relevant existing tests, and add new tests that cover your feature’s normal behavior, the edge cases you chose to support, and failure handling. If your changes break an existing test, work out why. Change the test only if the expected behavior has intentionally changed. Do not delete or disable failing tests. All relevant existing tests and your new tests should pass in your final submission.
 
-Use the [presentation page](https://monip1.github.io/translation/docs/QA.html) for the plan, tips, and details on how the Q&A works, with example questions.
+Use the [presentation page](./QA.html) for the plan, tips, and details on how the Q&A works, with example questions.
 
 
 ### Exporting your chat history
