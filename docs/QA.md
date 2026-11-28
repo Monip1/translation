@@ -1,6 +1,6 @@
 ---
 title: QA
-layout: qa
+layout: QA
 permalink: /QA
 nav_order: 2
 ---
