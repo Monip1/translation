@@ -6,8 +6,8 @@ color_scheme: light
 domain: monip1.github.io
 url: https://monip1.github.io/translation
 
-  #logo: "/assets/new_logo.png"
-  #favicon_ico: "/assets/favicon/favicon.ico"
+logo: "/assets/new_logo.png"
+favicon_ico: "/assets/favicon/favicon.ico"
 
 math: katex
 
