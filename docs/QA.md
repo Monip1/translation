@@ -1,3 +1,11 @@
+---
+title: Q & A
+layout: qa
+permalink: /QA
+nav_order: 2
+---
+
+
 # Presentation and Q&A
 
 This page gives a plan for the presentation and explains how the Q&A works.
