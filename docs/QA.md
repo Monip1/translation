@@ -1,5 +1,5 @@
 ---
-title: Q & A
+title: QA
 layout: qa
 permalink: /QA
 nav_order: 2
