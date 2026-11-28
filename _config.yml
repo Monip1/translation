@@ -3,8 +3,8 @@ description: The website for coding a feature with AI study.
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-domain: monip1.github.io
-url: https://monip1.github.io/translation
+domain: cse29spring2026.github.io
+url: https://cse29spring2026.github.io
 
 logo: "/assets/new_logo.png"
 favicon_ico: "/assets/favicon/favicon.ico"
@@ -13,6 +13,9 @@ math: katex
 
 # TODO: update these once all the links are obtained
 aux_links:
+  EdStem: "https://edstem.org/us/courses/97308/discussion"
+  Canvas: "https://canvas.ucsd.edu/courses/74040"
+  Gradescope: "https://www.gradescope.com/courses/1290406"
 aux_links_new_tab: true
 
 footer_content: 'University of California San Diego. Built with <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>.'
